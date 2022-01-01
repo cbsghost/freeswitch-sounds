@@ -66,7 +66,7 @@ sub process_phrase_node {
                                  . ($rate ? ("-r $rate ") : '')
                                  . "-o '$file_path' "
                                  . "--data-format=I16\@$bitrate "
-                                 . "'[[volm 1.0]]$sentence'";
+                                 . "'$sentence'";
 
             print($file_path . "\n");
 
